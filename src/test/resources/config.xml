@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+
+
+
+<suite name="TestNG Regression Suite" verbose="3" parallel="tests" thread-count="3" >
+
+
+ 
+
+ <test name="I am Happy with testNG">
+  <classes>
+   <class name="com.qa.opencart.tests.LoginPageTest" />
+   <parameter name="browser" value="Chrome"/>
+   <parameter name="url" value= "https://naveenautomationlabs.com/opencart/index.php?route=account/login"/>
+    </classes>
+ </test>
+
+</suite>
