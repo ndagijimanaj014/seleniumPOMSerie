@@ -17,6 +17,7 @@ public class ProductInfoPage {
 	By productHeader=By.cssSelector("div#content h1");
 public ProductInfoPage(WebDriver driver) {
 	this.driver= driver;
+	
 	ele= new ElementUtil(driver);
 }
 public int getProductImageCount() {
